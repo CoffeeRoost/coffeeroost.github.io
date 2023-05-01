@@ -6,8 +6,8 @@ btn.addEventListener("click", () => {
 
 
 
-var ff = document.getElementById("FancyShmancy");
-var bb = document.getElementById("BoringBetty");
+let ff = document.getElementById("FancyShmancy");
+let bb = document.getElementById("BoringBetty");
 
 
 ff.addEventListener("change", () => {
@@ -34,8 +34,8 @@ bb.addEventListener("change", () => {
 const moo = document.getElementById("moo");
 moo.addEventListener("click", () => {
 
-	var str = document.getElementById("changeMe").value;
-	var parts = str.split(".");
+	let str = document.getElementById("changeMe").value;
+	let parts = str.split(".");
 	str = parts.join("-Moo.");
 	document.getElementById("changeMe").value = str;
 
